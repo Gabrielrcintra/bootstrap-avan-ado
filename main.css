@@ -1,0 +1,168 @@
+
+.navbar-nav .nav-link.active {
+    color: #000; 
+}
+
+.nav-link {  
+    text-align: center; 
+    color: #000; 
+}
+
+
+section {
+    background-color: #FFFFFF; 
+    padding: 20px; 
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 1000;
+    padding: 0;
+}
+
+
+.produtos-container .card {
+    margin-bottom: 30px; 
+}
+
+
+footer a {
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px; 
+    }
+    
+    .navbar {
+        width: 100%; 
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .col-4 {
+        width: 100%;
+        margin-bottom: 15px; 
+    }
+    
+    .card {
+        margin-bottom: 20px; 
+    }
+    
+    .carousel-item img {
+        height: auto;
+        width: 100%; 
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        background-color: #343a40; 
+        color: #fff; 
+    }
+    
+    footer a {
+        color: #fff; 
+        text-decoration: none; 
+    }
+    
+    footer a:hover {
+        text-decoration: underline; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    
+    .navbar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px; /* Ajuste o tamanho do texto do menu */
+    }
+
+    .produtos-container {
+        padding: 15px;
+    }
+
+    /* Ajuste para garantir que os cards fiquem lado a lado em duas colunas */
+    .row {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os elementos ocupem mais de uma linha, se necessário */
+        justify-content: space-between;
+    }
+
+    .col-4 {
+        width: 48%; /* Cada card ocupa 48% da largura, garantindo duas colunas */
+        margin-bottom: 20px;
+    }
+
+    .col-md-12 {
+        width: 100%; /* Garantir que colunas de 12 ocupem a largura total */
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 20px 0;
+        background-color: #343a40; 
+        color: #fff; 
+    }
+    
+    footer a {
+        color: #fff; 
+        text-decoration: none; 
+    }
+    
+    footer a:hover {
+        text-decoration: underline; 
+    }
+
+    footer .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .col-md-6 {
+        width: 48%;
+    }
+
+    footer .col-md-12 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
